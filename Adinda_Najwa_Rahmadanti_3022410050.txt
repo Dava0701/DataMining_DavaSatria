@@ -1,0 +1,29 @@
+DESKRIPSI KASUS DATA PREPROCESSING
+Kasus: Data Akademik Mahasiswa
+
+Identitas pembuat:
+Nama : Adinda Najwa Rahmadanti
+NIM : 3022410050
+
+Deskripsi kasus:
+Sebuah perguruan tinggi melakukan evaluasi data akademik mahasiswa. Dataset ini memuat kode mahasiswa anonim, program studi, jenis kelamin, usia, semester, jumlah SKS, IPK, persentase kehadiran, status mahasiswa, UKT, jenis kelas, dan tanggal daftar.
+
+Tujuan penggunaan:
+Dataset digunakan sebagai bahan latihan preprocessing untuk mengidentifikasi dan menangani permasalahan kualitas data sebelum analisis dilakukan.
+
+Variabel:
+ID_Mahasiswa, Program_Studi, Jenis_Kelamin, Usia, Semester, Jumlah_SKS, IPK, Persentase_Kehadiran, Status_Mahasiswa, UKT_Rp, Jenis_Kelas, Tanggal_Daftar.
+
+Permasalahan data yang disertakan:
+1. Missing value pada variabel numerik dan kategorik.
+2. Baris duplikat identik.
+3. Inkonsistensi penulisan kategori, kapitalisasi, spasi, singkatan, dan typo.
+4. Nilai numerik tidak valid atau di luar batas domain simulasi.
+5. Kandidat outlier yang diperiksa menggunakan metode IQR.
+6. Format tanggal yang tidak seragam dan satu tanggal kalender yang tidak valid.
+
+Catatan transparansi:
+Dataset ini merupakan data sintetis yang dibuat dengan bantuan AI untuk simulasi pertukaran dataset dalam pengerjaan tugas. Nama partner dicantumkan sebagai partner dalam skenario latihan. Dokumen ini tidak menyatakan bahwa partner benar-benar membuat atau mengirimkan dataset tersebut. Jika tugas mensyaratkan pertukaran dataset nyata, file ini harus diganti dengan dataset yang benar-benar diterima dari partner.
+
+Jumlah data awal: 153 baris dan 12 kolom.
+Seluruh identitas mahasiswa dalam dataset bersifat fiktif dan tidak merujuk pada mahasiswa nyata.
